@@ -11,6 +11,8 @@
 		80D9162125F3E65400CF606B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9162025F3E65400CF606B /* ContentView.swift */; };
 		80D9162325F3E65500CF606B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D9162225F3E65500CF606B /* Assets.xcassets */; };
 		80D9162625F3E65500CF606B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D9162525F3E65500CF606B /* Preview Assets.xcassets */; };
+		80E3704A25FE7D78004221AE /* pokemonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E3704925FE7D78004221AE /* pokemonCardView.swift */; };
+		80E3705225FECC14004221AE /* pokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E3705125FECC14004221AE /* pokemonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		80D9162225F3E65500CF606B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D9162525F3E65500CF606B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80D9162725F3E65500CF606B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E3704925FE7D78004221AE /* pokemonCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemonCardView.swift; sourceTree = "<group>"; };
+		80E3705125FECC14004221AE /* pokemonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 		80D9161D25F3E65400CF606B /* pokemoncardtgclab10 */ = {
 			isa = PBXGroup;
 			children = (
+				80E3704925FE7D78004221AE /* pokemonCardView.swift */,
 				80D9161E25F3E65400CF606B /* pokemoncardtgclab10App.swift */,
+				80E3705125FECC14004221AE /* pokemonData.swift */,
 				80D9162025F3E65400CF606B /* ContentView.swift */,
 				80D9162225F3E65500CF606B /* Assets.xcassets */,
 				80D9162725F3E65500CF606B /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				80D9162125F3E65400CF606B /* ContentView.swift in Sources */,
 				80D9161F25F3E65400CF606B /* pokemoncardtgclab10App.swift in Sources */,
+				80E3704A25FE7D78004221AE /* pokemonCardView.swift in Sources */,
+				80E3705225FECC14004221AE /* pokemonData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
